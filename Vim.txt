@@ -1,0 +1,103 @@
+---------------------------------------
+-NORMAL-
+---------------------------------------
+h-j-k-l = left-down-up-right
+e = end (koniec wyrazu)
+b = bigging (początek wyrazu)
+
+A = Shift+A = na końcu wiersza
+gg skocz na początek pliku
+G = Shift+G = skok na koniec pliku
+
+u = cofnij akcję /undo/
+
+ce = zmiana tekstu do końca słowa
+cb = zmiana tekstu do początku słowa
+c3e = zmiana tekstu do końca 3 słowa
+ctH = zmiana wszystkiego do litery H
+ci{ = zamień wszystko w tych nawiasach
+
+o = open /otwórz/ nowa linia ponożej
+O = Shift+O = open/otwórz/ nowa linia powyżej
+---------------------------------------
+
+
+
+$ = Shift+$ = skok na koniec linii
+  = Shift+6 = skok na początek linii
+
+7 Shift+G = skok do 7 linii
+:3<enter> = skok do 3 linii
+/ = szukaj /down/ (np. okulary)
+? = szukaj /up/ (np. okulary)
+---------------------------------------i
+-INSERT-
+---------------------------------------
+i = insert /wstaw tekst/
+a = apend /dopisz tekst/
+?Ta
+---------------------------------------
+-REPLACE-
+---------------------------------------
+R = Ctrl+R = powtórz akcję /redo/
+
+n = next (nast€pny wynik)
+N = /Shift+N/ begging (poprzedni wynik)
+
+
+x = usuń znak spod kursora
+X = Ctrl+X = wcięcie tekstu
+
+r = zamiana znaku spod kursora /replace/
+R = Shift+R = zamiana kolejnych liter, aż do naciścięcia klawisz <escape>
+
+c = zmiana /change/
+e = koniec słowa /end/
+b = początek słowa /begging/
+t = do/aż do (to/till)
+i = (in/inside) 
+
+
+
+yy = skopiuj linię tekstu /yanks/
+y3y = skopiuj 3 linie tekstu /yanks/
+
+p = wklej poniżej /paste/ 
+P = Shift+P wklej powyżej /paste/ 
+
+dd = usuń linię tekstu /delete/
+d2d = usuń 2 linie tekstu /delete/
+2dd = usuń 2 linie tekstu /delete/
+---------------------------------------
+-VISUAL-
+---------------------------------------
+v = swobodne zaznaczanie tekstu
+V = Shift+V = zaznacz całą linię tekst
+
+---------------------------------------
+* = skocz do innych wystąpień tego słowa (np. do definicji):
+---------------------------------------
+function abc () {
+   asd
+      asd
+         asd
+}
+abc ();
+---------------------------------------
+% = skocz do odpowiadającego nawiasu
+---------------------------------------
+~/.vimrc
+---------------------------------------
+:set incsearch (szukaj inkrementalnie, czyli pokazuj w locie co znalazłeś)
+
+:set nocompatible
+
+:hlsearch = wyświetl wszystkie znalezione wzorce /hl = highlight = podświetlenie/
+
+:nohl /no highlight/ nie wyświetlaj jw.
+
+:set autoindent = uruchamia automatyczne wyrównywanie kodu /tab/
+---------------------------------------
+
+
+
